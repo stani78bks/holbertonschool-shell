@@ -1,4 +1,4 @@
 #!/bin/bash
-for file in *.html; do mv -n "$file" /destination/directory/; done
+cp -u *.html ../
 
 
